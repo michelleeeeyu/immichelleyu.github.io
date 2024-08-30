@@ -1,0 +1,59 @@
+body {
+    background-color:white;
+}
+
+.pagination {
+    text-align:center;
+}
+
+
+.pagination a{
+    padding: 9px 15px;
+    text-decoration:none;
+    color:rgb(94, 87, 87);
+    font-size:18px;
+}
+
+.pagination a.active{
+    text-decoration-line:underline;
+}
+
+.pagination a:hover:not(.active){
+    text-decoration-line:underline;
+    text-decoration-color:rgb(120, 110, 110);
+}
+
+
+#intro {
+    font-size: 1.2em;
+    top:160px;
+    font-family:helvetica;
+    position:relative;
+    text-align:center;
+}
+
+
+
+#para {
+    font-size: 1.2em;
+    position:relative;
+    text-align:center;
+    top:190px;
+    font-family: helvetica;
+    width:700px;
+    margin: 0 auto;
+    
+
+}
+
+
+#main {
+    font-size:3em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    text-align: center;
+    top: 100px;
+
+   
+
+}
